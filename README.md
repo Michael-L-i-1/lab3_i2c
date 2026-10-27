@@ -26,8 +26,10 @@ Z-axis acceleration: OUT_Z_L_A at `0x2C` and OUT_Z_H_A at '0x2D`
 
 ## 3. Writing the Driver
 
-### 3a.
+![WHO_AM_I register reads](part3-writing-the-driver/screenshots/who_am_i.png)
+
+From the datasheet, we expect WHO_AM_I_A to be `0x33` and WHO_AM_I_M to be `0x40`, which is exactly what we see here in the blue boxes.
 
 ## 4. Measuring Gravity
 
-### 4a.
+
