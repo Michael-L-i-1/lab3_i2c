@@ -6,8 +6,8 @@ int main(void)
 {
     HAL_Init();
 
-    run_part3();
-//    run_part4();
+//    run_part3();
+    run_part4();
 
     while (1)
     {

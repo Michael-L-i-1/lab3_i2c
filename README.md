@@ -32,4 +32,8 @@ From the datasheet, we expect WHO_AM_I_A to be `0x33` and WHO_AM_I_M to be `0x40
 
 ## 4. Measuring Gravity
 
+![Rotating the sensor while the terminal prints X, Y, Z](part4-measuring-gravity/videos/gravity_axes.gif)
 
+[Full demonstration video (.mov)](part4-measuring-gravity/videos/gravity_axes_original.mov)
+
+Each axis is a 16-bit two's complement value. At the default ±2 g full scale. 1 g = 32768 / 2 = 16384 counts, so g = raw / 16384. As the board rotates, each axis reaches about +1 g and -1 g when it points along gravity.
